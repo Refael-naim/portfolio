@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  color: #fff;
+  background-color: rgb(10, 4, 22);
+  margin-top: 48px;
+}
+
+.footer_copyright {
+  margin-left: 100px;
+}
+
+.social__list_footer {
+  list-style-type: none;
+  color: #fff;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+  margin-right: 100px;
+}
+
+.social__item_footer {
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .footer_copyright {
+    margin-left: 20px;
+  }
+
+  .social__list_footer {
+    margin-right: 20px;
+  }
+}

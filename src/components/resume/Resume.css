@@ -1,0 +1,38 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume__container {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.resume__button {
+    color: #fff;
+    background-color: var(--main-color-dark_4);
+    border-color: var(--main-color-dark_4);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 4px 76px;
+    text-align: center;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s
+}
+
+.resume__button:hover {
+    color: #fff;
+    background-color: var(--main-color-dark_1);
+    border-color: var(--main-color-dark_1);
+  }
